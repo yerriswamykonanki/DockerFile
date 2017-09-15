@@ -1,7 +1,7 @@
 FROM tomcat
 MAINTAINER swamy
 
-COPY /var/lib/jenkins/workspace/Demo/SpringMVCSecurityXML/target/SpringMVCSecurityXML.war /usr/local/tomcat/webapps/ROOT.war
+COPY SpringMVCSecurityXML.war /usr/local/tomcat/webapps/ROOT.war
 
 #ADD SpringMVCSecurityXML.war /usr/local/tomcat/webapps/
 

@@ -1,7 +1,6 @@
 FROM tomcat
-MAINTAINER GGK
+MAINTAINER swamy
 
-RUN ["rm", "-fr", "/usr/local/tomcat/webapps/ROOT"]
 COPY ./var/lib/jenkins/workspace/Demo/SpringMVCSecurityXML/target/SpringMVCSecurityXML.war /usr/local/tomcat/webapps/ROOT.war
 
 #ADD SpringMVCSecurityXML.war /usr/local/tomcat/webapps/
